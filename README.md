@@ -8,6 +8,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 husky - npx husky install => (npx husky add .husky/pre-commit "yarn lint") (npx husky add .husky/pre-push "yarn build") and add "prepare": "husky install" to package.json
 
+commitlint - npx husky add .husky/commit-msg 'npx --no --commitlint --edit "$1"'
+
 ## Getting Started
 
 First, run the development server:
