@@ -6,6 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 .npmrc - engine-strict=true - we can specify whitch engine we use for the project (npm or yarn) in package.json ("engines")
 
+husky - npx husky install => (npx husky add .husky/pre-commit "yarn lint") (npx husky add .husky/pre-push "yarn build") and add "prepare": "husky install" to package.json
+
 ## Getting Started
 
 First, run the development server:
