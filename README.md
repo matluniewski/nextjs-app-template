@@ -10,6 +10,11 @@ husky - npx husky install => (npx husky add .husky/pre-commit "yarn lint") (npx 
 
 commitlint - npx husky add .husky/commit-msg 'npx --no --commitlint --edit "$1"'
 
+storybook - npx sb init --builder webpack5 => add "plugin:storybook/recommended" in .eslintrc "extends" and add "overrides" section => add "
+"resolutions": {
+"webpack": "^5"
+}" in package.json and run yarn install
+
 ## Getting Started
 
 First, run the development server:
