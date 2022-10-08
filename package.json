@@ -1,7 +1,8 @@
 {
-  "name": "nextjs-app-template",
+  "name": "@matluniewski/nextjs-app-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": "https://github.com/matluniewski/nextjs-app-template.git",
   "engines": {
     "node": ">=14.0.0",
     "yarn": ">=1.22.0",
